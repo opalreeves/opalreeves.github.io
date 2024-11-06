@@ -1,0 +1,14 @@
+{
+  "name": "opalreeves.github.io",
+  "version": "1.0.0",
+  "description": "GitHub was built by developers for developers. \r GitHub is a version control system (VCS).\r GitHub is owned by Microsoft.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
