@@ -1,0 +1,5 @@
+def calculate_bmi(weight_kg, height_m):
+    return weight_kg / (height_m ** 2)
+
+bmi = calculate_bmi(55, 1.67)
+print(f"The BMI is: {bmi:.2f}")
