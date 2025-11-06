@@ -8,8 +8,3 @@ def word_length_std_dev(text):
     squared_diffs = [(length - mean) ** 2 for length in lengths]
     s = (sum(squared_diffs) / (N-1)) ** 0.5
     return s
-
-#tests
-#text = "A by few hour shows should"
-#print(word_length_std_dev(text))
-
