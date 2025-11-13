@@ -10,5 +10,5 @@ def list_of_primes_up_to(limit=100):
             for multiple in range(divisor * 2, limit + 1, divisor):
                 primes[multiple] = False
         divisor += 1
-    prime_numbers = {i for i, is_prime in enumerate(primes) if is_prime}
+    prime_numbers = [i for i, is_prime in enumerate(primes) if is_prime]
     return prime_numbers
