@@ -12,6 +12,3 @@ def list_of_primes_up_to(limit=100):
         divisor += 1
     prime_numbers = {i for i, is_prime in enumerate(primes) if is_prime}
     return prime_numbers
-if __name__ == "__main__":
-    result = list_of_primes_up_to(1000)
-    print(result)
