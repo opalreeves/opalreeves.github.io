@@ -6,6 +6,3 @@ def count_letters(string_input):
         if num > 0:
             counts[letter] = num
     return counts
-
-if __name__ == "__main__":
-    print(count_letters("karaoke 233 fio2 qar93"))

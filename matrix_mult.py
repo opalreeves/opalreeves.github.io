@@ -31,8 +31,4 @@ def matrix_mult(A, B):
         result.append(new_row)
     return result
 
-#if __name__ == "__main__":
-    A = [[3, 1], [-8, 5], [1, 4]]
-    B = [[1, 4, 7, 1], [-5, -8, 4, 3]]
 
-    print(matrix_mult(A, B))
