@@ -14,7 +14,7 @@ def matrix_mult(A, B):
     result = []
 
     num_rows_A = len(A)
-    num_colums_B = len(B[0])
+    num_columns_B = len(B[0])
 
     for i in range(num_rows_A):
         new_row = []
