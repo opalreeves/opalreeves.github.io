@@ -1,4 +1,4 @@
-#Opal Reeves Assignment 10 (extra credit)
+#Opal Reeves Assignment 10a (extra credit)
 def file_sum(filename):
     total = 0.0
     
